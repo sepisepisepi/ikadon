@@ -7,7 +7,7 @@ chromeとfirefoxの「stylish」アドオンで使用できるテーマ。
 https://userstyles.org/styles/
 
 ## Demo
-[gazou]
+<img src="https://raw.githubusercontent.com/sepisepisepi/ikadon/master/img/ikadon_demo.jpg" alt="キャプチャ">
 
 ## Install
 ### chrome
