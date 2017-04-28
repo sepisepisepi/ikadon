@@ -14,6 +14,9 @@ $white_03: rgba(255,255,255,.3);
 $white_01: rgba(255,255,255,.1);
 $orange_1: #FD751D;
 $blue_1: #1613e6;
+$lightblue_1: #1dc8ef;
+$green_1: #21ea80;
+$yellow_1: #c9f21b;
 $purple_1: #9600ff;
 $gray_1: #C4C2C0;
 $dark_1: #272727;
@@ -100,6 +103,10 @@ $transition: all 100ms ease-in;
 .account__avatar {
 	border-radius: 50%;
 	box-shadow: 4px 4px 0 #{$shadow};
+}
+
+.account {
+	border-color: $white_1;
 }
 
 .navigation-bar {
@@ -243,6 +250,18 @@ button.icon-button i.fa-retweet:hover {
 	&.active {
 		color: $orange_1 !important;
 	}
+}
+
+.notification__message .fa-star {
+	color: $yellow_1 !important;
+}
+
+.notification__message .fa-user-plus {
+	color: $lightblue_1 !important;
+}
+
+.notification__message .fa-retweet {
+	color: $green_1 !important;
 }
 
 
