@@ -1,0 +1,20 @@
+{
+  "name": "ikadon",
+  "version": "1.0.0",
+  "description": "mastodon style",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.4.0",
+    "gulp-sass": "^3.1.0",
+    "postcss-cssnext": "^2.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
