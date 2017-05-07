@@ -172,18 +172,6 @@ $transition: all 100ms ease-in;
 	color: $white_1;
 }
 
-.empty-column-indicator {
-	span {
-		font-size: 0;
-		display: block;
-		margin: 0 auto;
-		&:before {
-			content: 'マンメンミ！';
-			font-size: 15px;
-		}
-	}
-}
-
 /* 'TOOT' button */
 .button {
 	background: $orange_1;
@@ -347,7 +335,7 @@ button.icon-button i.fa-retweet:hover {
 
 /* culumn */
 .column-header.active .fa {
-    color: $white_1;
+    color: $black_1;
 }
 
 .getting-started__wrapper {
@@ -415,6 +403,28 @@ button.icon-button i.fa-retweet:hover {
 	&:active {
 		border-bottom-color: $orange_1;
 	}
+}
+
+// tooltip
+.dropdown--active .dropdown__content:before {
+	right: 95px;
+	left: initial;
+}
+
+.dropdown--active > .dropdown__content.dropdown__right {
+	right: 10px;
+}
+
+.dropdown--active > .dropdown__content > ul {
+	left: 0;
+}
+
+.dropdown--active > .dropdown__content > ul > li > a {
+	overflow: initial;
+	text-overflow: initial;
+	white-space: normal;
+	width: auto;
+	max-width: 235px;
 }
 
 
