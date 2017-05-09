@@ -1,10 +1,19 @@
 # ikadon
 
-某イカゲーム風なmastodonテーマ
+某イカゲーム風なmastodonテーマ  
+対応インスタンス：https://ika.queloud.net/about/
 
 ## Description
 chromeとfirefoxの「stylish」アドオンで使用できるテーマ。  
 https://userstyles.org/styles/
+
+### ika-style.css
+stylish用css  
+
+### user.css
+[Web-based Desktop Client for Mastodon](https://github.com/rhysd/Mstdn)  
+こちらのデスクトップ用css  
+[こちら](https://ika.queloud.net/about/)以外でも使用はできますが、検証していないので反映されない場合があります。
 
 ikadonとインスタンスの説明がわかりやすい参考記事です。  
 [スプラトゥーンのマストドンインスタンスに登録して結構経ったので感想とか](https://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon "スプラトゥーンのマストドンインスタンスに登録して結構経ったので感想とか")
