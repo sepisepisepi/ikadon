@@ -20,6 +20,7 @@ $yellow_1: #c9f21b;
 $purple_1: #9600ff;
 $gray_1: #C4C2C0;
 $dark_1: #272727;
+$dark_09: rgba(39,39,39,.9);
 
 $shadow: rgba(255,255,255,.2);
 
@@ -101,8 +102,7 @@ $transition: all 100ms ease-in;
 }
 
 .account__avatar {
-	border-radius: 50%;
-	box-shadow: 4px 4px 0 #{$shadow};
+	clip-path: polygon(50% 0, 0 50%, 15% 50%, 15% 100%, 26% 90%, 37% 100%, 50% 90%, 62% 100%, 74% 90%, 85% 100%, 85% 50%, 100% 50%);
 }
 
 .account {
@@ -372,6 +372,14 @@ button.icon-button i.fa-retweet:hover {
 .detailed-status__action-bar,
 .account__header > div {
 	background: $dark_1;
+}
+
+.column-settings__outer {
+	background: $dark_1;
+}
+
+.account__header > div {
+	background: $dark_09;
 }
 
 

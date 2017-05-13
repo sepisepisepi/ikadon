@@ -28,5 +28,10 @@ https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenf
 ### firefox
 https://addons.mozilla.org/ja/firefox/addon/stylish/
 
+#### firefox47以降でアイコンの形を帰る方法
+1. firefoxのアドレスバーに「about:config」を入力
+2. 「layout.css.clip-path-shapes.enable」を検索
+3. 真偽値を「true」に変更
+
 ### ここからテーマをインストール
 https://userstyles.org/styles/141847/ikadon

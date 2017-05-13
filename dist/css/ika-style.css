@@ -56,8 +56,8 @@
   border-radius: 0 0 15px 15px; }
 
 .account__avatar {
-  border-radius: 50%;
-  box-shadow: 4px 4px 0 rgba(255, 255, 255, .2); }
+  -webkit-clip-path: polygon(50% 0, 0 50%, 15% 50%, 15% 100%, 26% 90%, 37% 100%, 50% 90%, 62% 100%, 74% 90%, 85% 100%, 85% 50%, 100% 50%);
+          clip-path: polygon(50% 0, 0 50%, 15% 50%, 15% 100%, 26% 90%, 37% 100%, 50% 90%, 62% 100%, 74% 90%, 85% 100%, 85% 50%, 100% 50%); }
 
 .account {
   border-color: #fff; }
@@ -264,6 +264,12 @@ button.icon-button i.fa-retweet:hover {
 .detailed-status__action-bar,
 .account__header > div {
   background: #272727; }
+
+.column-settings__outer {
+  background: #272727; }
+
+.account__header > div {
+  background: rgba(39, 39, 39, .9); }
 
 /* setting */
 .column-settings--section,
