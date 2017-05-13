@@ -294,18 +294,18 @@ button.icon-button i.fa-retweet:hover {
   .setting-text:active {
     border-bottom-color: #FD751D; }
 
-.dropdown--active .dropdown__content:before {
+.status__action-bar-dropdown:not(.account__action-bar-dropdown) .dropdown--active .dropdown__content:before {
   right: 95px;
   left: auto;
   left: initial; }
 
-.dropdown--active > .dropdown__content.dropdown__right {
+.status__action-bar-dropdown:not(.account__action-bar-dropdown) .dropdown--active > .dropdown__content.dropdown__right {
   right: 10px; }
 
-.dropdown--active > .dropdown__content > ul {
+.status__action-bar-dropdown:not(.account__action-bar-dropdown) .dropdown--active > .dropdown__content > ul {
   left: 0; }
 
-.dropdown--active > .dropdown__content > ul > li > a {
+.status__action-bar-dropdown:not(.account__action-bar-dropdown) .dropdown--active > .dropdown__content > ul > li > a {
   overflow: visible;
   overflow: initial;
   text-overflow: initial;

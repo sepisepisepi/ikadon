@@ -414,25 +414,27 @@ button.icon-button i.fa-retweet:hover {
 }
 
 // tooltip
-.dropdown--active .dropdown__content:before {
-	right: 95px;
-	left: initial;
-}
+.status__action-bar-dropdown:not(.account__action-bar-dropdown) {
+	.dropdown--active .dropdown__content:before {
+		right: 95px;
+		left: initial;
+	}
 
-.dropdown--active > .dropdown__content.dropdown__right {
-	right: 10px;
-}
+	.dropdown--active > .dropdown__content.dropdown__right {
+		right: 10px;
+	}
 
-.dropdown--active > .dropdown__content > ul {
-	left: 0;
-}
+	.dropdown--active > .dropdown__content > ul {
+		left: 0;
+	}
 
-.dropdown--active > .dropdown__content > ul > li > a {
-	overflow: initial;
-	text-overflow: initial;
-	white-space: normal;
-	width: auto;
-	max-width: 235px;
+	.dropdown--active > .dropdown__content > ul > li > a {
+		overflow: initial;
+		text-overflow: initial;
+		white-space: normal;
+		width: auto;
+		max-width: 235px;
+	}
 }
 
 
