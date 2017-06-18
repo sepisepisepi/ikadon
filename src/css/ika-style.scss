@@ -55,10 +55,25 @@ $transition: all 100ms ease-in;
 	}
 }
 
-.column-back-button {
+.column-back-button,
+.column-header__button.active:hover,
+.column-header__button:hover {
 	background: $black_05;
 	border-radius: 0 15px 0 0;
 	color: $white_1;
+}
+
+.column-header__button,
+.column-header__button.active,
+ {
+	background: none;
+	color: $black_1;
+}
+
+.column-header__back-button {
+	background: none;
+	border-radius: 0;
+	color: $black_1;
 }
 
 .column-back-button--slim {
@@ -173,7 +188,7 @@ $transition: all 100ms ease-in;
 }
 
 /* 'TOOT' button */
-.button {
+.compose-form__publish-button-wrapper > .button {
 	background: $orange_1;
 	border-radius: 15px;
 	font-size: 0;
@@ -293,6 +308,9 @@ button.icon-button i.fa-retweet:hover {
 /* cassette */
 .status {
 	border-bottom-color: $gray_1;
+	&.status-direct {
+		background: $white_01;
+	}
 }
 
 
@@ -370,7 +388,8 @@ button.icon-button i.fa-retweet:hover {
 .column-settings--outer,
 .detailed-status,
 .detailed-status__action-bar,
-.account__header > div {
+.account__header > div,
+.column-header__collapsible > div {
 	background: $dark_1;
 }
 

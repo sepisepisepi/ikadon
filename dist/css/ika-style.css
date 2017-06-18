@@ -20,10 +20,22 @@
 .column > .column-back-button {
   border-radius: 15px 15px 0 0; }
 
-.column-back-button {
+.column-back-button,
+.column-header__button.active:hover,
+.column-header__button:hover {
   background: rgba(0, 0, 0, .5);
   border-radius: 0 15px 0 0;
   color: #fff; }
+
+.column-header__button,
+.column-header__button.active {
+  background: none;
+  color: #000; }
+
+.column-header__back-button {
+  background: none;
+  border-radius: 0;
+  color: #000; }
 
 .column-back-button--slim > .column-back-button {
   border-radius: 0 15px 0 0; }
@@ -110,19 +122,19 @@
   color: #fff; }
 
 /* 'TOOT' button */
-.button {
+.compose-form__publish-button-wrapper > .button {
   background: #FD751D;
   border-radius: 15px;
   font-size: 0;
   overflow: hidden;
   white-space: nowrap; }
-  .button:before {
+  .compose-form__publish-button-wrapper > .button:before {
     content: '　スプラ　';
     display: block;
     font-size: 14px; }
-  .button:hover {
+  .compose-form__publish-button-wrapper > .button:hover {
     background: #9600ff; }
-    .button:hover:before {
+    .compose-form__publish-button-wrapper > .button:hover:before {
       content: 'トゥーン！';
       display: block;
       font-size: 14px; }
@@ -204,6 +216,8 @@ button.icon-button i.fa-retweet:hover {
 /* cassette */
 .status {
   border-bottom-color: #C4C2C0; }
+  .status.status-direct {
+    background: rgba(255, 255, 255, .1); }
 
 /* more */
 .load-more {
@@ -262,7 +276,8 @@ button.icon-button i.fa-retweet:hover {
 .column-settings--outer,
 .detailed-status,
 .detailed-status__action-bar,
-.account__header > div {
+.account__header > div,
+.column-header__collapsible > div {
   background: #272727; }
 
 .column-settings__outer {
